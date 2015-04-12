@@ -1,8 +1,8 @@
 {
   "name": "prunenm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "deletes all node_module directories in a given path",
-  "main": "lib/prunenm.js",
+  "main": "./lib/prunenm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
