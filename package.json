@@ -1,19 +1,16 @@
 {
   "name": "prunenm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "deletes all node_module directories in a given path",
-  "main": "./lib/prunenm.js",
+  "main": "./src/prunenm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "prunenm": "./lib/prunenm.cli.js"
+    "prunenm": "./src/prunenm.cli.js"
   },
-  "files": [
-    "./lib/prunenm.js",
-    "./lib/prunenm.cli.js",
-    "LICENSE",
-    "README.md"
+  "directories": [
+    "src"
   ],
   "repository": {
     "type": "git",
