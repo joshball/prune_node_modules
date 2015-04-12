@@ -1,0 +1,32 @@
+{
+  "name": "prunenm",
+  "version": "1.0.0",
+  "description": "deletes all node_module directories in a given path",
+  "main": "lib/prunenm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "prunenm": "./lib/prunenm.cli.js"
+  },
+  "files": [
+    "./lib/prunenm.js",
+    "./lib/prunenm.cli.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshball/prunenm.git"
+  },
+  "author": "Joshua Ball <joshua.g.s.ball@gmail.com> (https://github.com/joshball/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshball/prunenm/issues"
+  },
+  "homepage": "https://github.com/joshball/prunenm",
+  "dependencies": {
+    "nomnom": "git+https://github.com/joshball/nomnom",
+    "rimraf": "^2.3.2"
+  }
+}
